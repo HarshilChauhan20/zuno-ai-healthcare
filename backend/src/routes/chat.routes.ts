@@ -1,8 +1,11 @@
 
 import { Router, type Request, type Response } from "express";
 import { randomUUID } from "node:crypto";
-import { pool } from "../config/db";
-import { getHealthGuidance } from "../services/ai.service";
+// import { pool } from "../config/db";
+// import { getHealthGuidance } from "../services/ai.service";
+import { pool } from "../config/db.js";
+import { getHealthGuidance } from "../services/ai.service.js";
+
 
 const router = Router();
 

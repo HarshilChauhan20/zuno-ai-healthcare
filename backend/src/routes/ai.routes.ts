@@ -1,6 +1,6 @@
 
 import { Router } from "express";
-import { chatWithZuno } from "../controllers/ai.controller";
+import { chatWithZuno } from "../controllers/ai.controller.js";
 
 const router = Router();
 

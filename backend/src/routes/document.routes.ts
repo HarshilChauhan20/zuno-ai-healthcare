@@ -1,13 +1,21 @@
 
 import { Router } from "express";
 import multer from "multer";
+// import {
+//   analyzeDocument,
+//   getSavedDocuments,
+//   getSavedDocument,
+//   downloadSavedDocument,
+//   removeSavedDocument,
+// } from "../controllers/document.controller";
+
 import {
   analyzeDocument,
   getSavedDocuments,
   getSavedDocument,
   downloadSavedDocument,
   removeSavedDocument,
-} from "../controllers/document.controller";
+} from "../controllers/document.controller.js";
 
 const router = Router();
 

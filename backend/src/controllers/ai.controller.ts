@@ -92,7 +92,7 @@
 
 
 import type { Request, Response } from "express";
-import { getHealthGuidance } from "../services/ai.service";
+import { getHealthGuidance } from "../services/ai.service.js";
 
 function detectPossibleEmergency(message: string): boolean {
   const text = message.toLowerCase();

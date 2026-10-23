@@ -2,7 +2,8 @@
 import { randomUUID } from "node:crypto";
 import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { pool } from "../config/db";
+// import { pool } from "../config/db";
+import { pool } from "../config/db.js";
 
 const storageDirectory = path.resolve(
   process.cwd(),
