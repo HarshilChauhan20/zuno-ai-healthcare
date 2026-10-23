@@ -78,7 +78,6 @@ import {
   HeartPulse,
   Clock3,
   Sparkles,
-  Stethoscope,
   LockKeyhole,
 } from "lucide-react";
 
